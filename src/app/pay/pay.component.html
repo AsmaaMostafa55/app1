@@ -1,0 +1,27 @@
+<div class="container">
+    <form  [formGroup]="addreessform" (ngSubmit)="addreessformsubmit()">
+        <div >
+            <label>
+                Details:
+            </label>
+            <input formControlName="Details" class="form-control">
+        </div>
+        <div >
+            <label>
+                phone:
+            </label>
+            <input formControlName="phone" class="form-control">
+        </div>
+        <div >
+            <label>
+               city:
+            </label>
+            <input formControlName="city" class="form-control">
+        </div>
+        <button class="btn btn-success" type="submit">pay</button>
+    </form>
+
+
+</div>
+
+
